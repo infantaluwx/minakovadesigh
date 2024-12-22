@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кейсы - Юлия Минакова</title>
+    <link rel="stylesheet" href="../static/css/cases.css">
+    <link rel="stylesheet" href="../static/css/modal.css">
+</head>
+<body class="page">
+    <!-- Шапка -->
+    <header class="header">
+        <a href="../pages/index.html" class="header__logo">
+            <span class="header__name">Юлия Минакова</span>
+            <span class="header__role">веб-дизайнер</span>
+        </a>
+        <nav class="header__menu menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a href="../pages/about.html" class="menu__link">обо мне</a></li>
+                <li class="menu__item"><a href="../pages/services.html" class="menu__link">услуги</a></li>
+                <li class="menu__item"><a href="../pages/cases.html" class="menu__link">кейсы</a></li>
+                <li class="menu__item menu__item_filled" id="openModal"><a href="#" class="menu__link">заполнить бриф</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Секция "Кейсы" -->
+    <main class="cases">
+        <div class="cases__list">
+            <!-- Первый кейс -->
+            <div class="cases__item">
+                <div class="cases__image">
+                    <img src="../static/images/cases/1.png" alt="Сайт для психолога">
+                </div>
+                <div class="cases__content">
+                    <h3 class="cases__title">сайт для психолога</h3>
+                    <p class="cases__goal"><span class="cases__label">цель проекта:</span> создание уникального и интуитивно понятного веб-сайта, который отражает профессионализм психолога и его подход к терапии, а также создает комфортную атмосферу для потенциальных клиентов.</p>
+                    <p class="cases__result"><span class="cases__label">результат:</span> сайт стал не только витриной для услуг психолога, но и источником информации, который помогает потенциальным клиентам чувствовать себя комфортно и уверенно при выборе специалиста.</p>
+                </div>
+            </div>
+    
+            <!-- Второй кейс -->
+            <div class="cases__item">
+                <div class="cases__image">
+                    <img src="../static/images/cases/2.png" alt="Сайт для стилиста">
+                </div>
+                <div class="cases__content">
+                    <h3 class="cases__title">сайт для стилиста по волосам</h3>
+                    <p class="cases__goal"><span class="cases__label">цель проекта:</span> создание современного и стильного веб-сайта, который отражает креативность и профессионализм стилиста, привлекает новых клиентов и демонстрирует его работы.</p>
+                    <p class="cases__result"><span class="cases__label">результат:</span> сайт стал отражением креативности и профессионализма стилиста, что привлекло новых клиентов.</p>
+                </div>
+            </div>
+
+            <div class="cases__item">
+                <div class="cases__image">
+                    <img src="../static/images/cases/3.png" alt="Сайт для магазина матчи">
+                </div>
+                <div class="cases__content">
+                    <h3 class="cases__title">сайт для магазина матчи</h3>
+                    <p class="cases__goal">
+                        <span class="cases__label">цель проекта:</span> создание веб-сайта-переходника, на котором будет размещена актуальная информация про матчу. сайт должен привлекать молодую аудиторию благодаря дизайну и краткой информации на доступном языке, после чего посетители сайта захотят купить матчу в этом магазине.
+                    </p>
+                    <p class="cases__result">
+                        <span class="cases__label">результат:</span> благодаря сайту-информатору получилось создать рекламную воронку, которая подняла ажиотаж и увеличила продажи азиатского напитка.
+                    </p>
+                </div>
+            </div>
+        
+            <!-- Четвертый кейс -->
+            <div class="cases__item">
+                <div class="cases__content">
+                    <h3 class="cases__title">визитки для студии оформления бровей</h3>
+                    <p class="cases__goal">
+                        <span class="cases__label">цель проекта:</span> разработка современных и привлекательных визиток для студии оформления бровей, которые будут отражать профессионализм компании. основной задачей было привлечение новых клиентов, повышение узнаваемости бренда и упрощение процесса записи на услуги.
+                    </p>
+                    <p class="cases__result">
+                        <span class="cases__label">результат:</span> визитки стали важным инструментом для привлечения новых клиентов, позволив студии бровей выделиться на фоне конкурентов. визитки были успешно распространены на мероприятиях и в социальных сетях, что повысило узнаваемость бренда.
+                    </p>
+                </div>
+                <div class="cases__image">
+                    <img src="../static/images/cases/4.png" alt="Визитки для студии оформления бровей">
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <footer class="footer">
+        <a href="https://t.me/minakova.deshigh" class="footer__link">@minakova.deshigh</a>
+    </footer>
+
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <span class="modal__close" id="closeModal">&times;</span>
+            <div class="modal__body">
+                <div class="modal__left">
+                    <img src="../static/images/modal/index.png" alt="Изображение человека" class="modal__image">
+                </div>
+                <div class="modal__right">
+                    <p class="modal__text">Для заполнения брифа<br> переходите по QR-коду</p>
+                    <img src="../static/images/modal/qr.png" alt="QR-код" class="modal__qr">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../static/js/modal.js"></script>
+</body>
+</html>
